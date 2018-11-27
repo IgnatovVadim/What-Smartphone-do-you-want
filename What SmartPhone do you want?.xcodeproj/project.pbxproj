@@ -56,15 +56,23 @@
 		F41350FF21AD40CF00F89B5F /* What SmartPhone do you want? */ = {
 			isa = PBXGroup;
 			children = (
-				F413510021AD40CF00F89B5F /* AppDelegate.swift */,
 				F413510221AD40CF00F89B5F /* ViewController.swift */,
 				F413510421AD40CF00F89B5F /* Main.storyboard */,
-				F413510A21AD40D000F89B5F /* Assets.xcassets */,
-				F413510C21AD40D000F89B5F /* LaunchScreen.storyboard */,
 				F413510F21AD40D000F89B5F /* Info.plist */,
 				F413510721AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodeld */,
+				F413511521AD40EB00F89B5F /* Resources */,
 			);
 			path = "What SmartPhone do you want?";
+			sourceTree = "<group>";
+		};
+		F413511521AD40EB00F89B5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F413510021AD40CF00F89B5F /* AppDelegate.swift */,
+				F413510C21AD40D000F89B5F /* LaunchScreen.storyboard */,
+				F413510A21AD40D000F89B5F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3EK7JWU93;
 				INFOPLIST_FILE = "What SmartPhone do you want?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J3EK7JWU93;
 				INFOPLIST_FILE = "What SmartPhone do you want?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
