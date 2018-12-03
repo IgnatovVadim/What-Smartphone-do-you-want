@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F401995D21B3EC0800E14719 /* CreateOrEditSmartphoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401995C21B3EC0800E14719 /* CreateOrEditSmartphoneTableViewController.swift */; };
+		F40DE64221B50A1C00020DD1 /* Smartphone Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40DE64121B50A1C00020DD1 /* Smartphone Model.swift */; };
 		F413510121AD40CF00F89B5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F413510021AD40CF00F89B5F /* AppDelegate.swift */; };
-		F413510321AD40CF00F89B5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F413510221AD40CF00F89B5F /* ViewController.swift */; };
 		F413510621AD40CF00F89B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F413510421AD40CF00F89B5F /* Main.storyboard */; };
 		F413510921AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F413510721AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodeld */; };
 		F413510B21AD40D000F89B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F413510A21AD40D000F89B5F /* Assets.xcassets */; };
 		F413510E21AD40D000F89B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F413510C21AD40D000F89B5F /* LaunchScreen.storyboard */; };
+		F45E280E21AE804500B25FAE /* SmartphonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E280D21AE804500B25FAE /* SmartphonesViewController.swift */; };
+		F45E281021AE85D400B25FAE /* SmartphonesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E280F21AE85D400B25FAE /* SmartphonesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F401995C21B3EC0800E14719 /* CreateOrEditSmartphoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditSmartphoneTableViewController.swift; sourceTree = "<group>"; };
+		F40DE64121B50A1C00020DD1 /* Smartphone Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smartphone Model.swift"; sourceTree = "<group>"; };
 		F41350FD21AD40CF00F89B5F /* What SmartPhone do you want?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What SmartPhone do you want?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F413510021AD40CF00F89B5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F413510221AD40CF00F89B5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F413510521AD40CF00F89B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F413510821AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = What_SmartPhone_do_you_want_.xcdatamodel; sourceTree = "<group>"; };
 		F413510A21AD40D000F89B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F413510D21AD40D000F89B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F413510F21AD40D000F89B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45E280D21AE804500B25FAE /* SmartphonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartphonesViewController.swift; sourceTree = "<group>"; };
+		F45E280F21AE85D400B25FAE /* SmartphonesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartphonesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F401995B21B3E33600E14719 /* Creating and editing Smartphones Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F401995C21B3EC0800E14719 /* CreateOrEditSmartphoneTableViewController.swift */,
+			);
+			path = "Creating and editing Smartphones Controllers";
+			sourceTree = "<group>";
+		};
 		F41350F421AD40CF00F89B5F = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +70,8 @@
 		F41350FF21AD40CF00F89B5F /* What SmartPhone do you want? */ = {
 			isa = PBXGroup;
 			children = (
-				F413510221AD40CF00F89B5F /* ViewController.swift */,
+				F45E280721AE755600B25FAE /* Models */,
+				F45E280621AE755000B25FAE /* Controllers */,
 				F413510421AD40CF00F89B5F /* Main.storyboard */,
 				F413510F21AD40D000F89B5F /* Info.plist */,
 				F413510721AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodeld */,
@@ -73,6 +88,32 @@
 				F413510A21AD40D000F89B5F /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F45E280621AE755000B25FAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F45E280821AE7F2D00B25FAE /* Smartphones Controllers */,
+				F401995B21B3E33600E14719 /* Creating and editing Smartphones Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F45E280721AE755600B25FAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F40DE64121B50A1C00020DD1 /* Smartphone Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F45E280821AE7F2D00B25FAE /* Smartphones Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F45E280D21AE804500B25FAE /* SmartphonesViewController.swift */,
+				F45E280F21AE85D400B25FAE /* SmartphonesTableViewCell.swift */,
+			);
+			path = "Smartphones Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45E281021AE85D400B25FAE /* SmartphonesTableViewCell.swift in Sources */,
+				F401995D21B3EC0800E14719 /* CreateOrEditSmartphoneTableViewController.swift in Sources */,
+				F45E280E21AE804500B25FAE /* SmartphonesViewController.swift in Sources */,
 				F413510921AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodeld in Sources */,
-				F413510321AD40CF00F89B5F /* ViewController.swift in Sources */,
 				F413510121AD40CF00F89B5F /* AppDelegate.swift in Sources */,
+				F40DE64221B50A1C00020DD1 /* Smartphone Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
