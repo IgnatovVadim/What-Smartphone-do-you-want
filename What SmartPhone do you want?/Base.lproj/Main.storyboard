@@ -21,6 +21,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XEM-st-3FW">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="TFX-pw-1tu" customClass="SmartphonesTableViewCell" customModule="What_SmartPhone_do_you_want_" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -45,6 +46,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="nameOfSmartphone" destination="UKb-9r-HUz" id="8Qr-S1-JvF"/>
+                                            <segue destination="7dC-da-eIF" kind="show" identifier="editSmartphoneSegue" id="Xpc-Nq-jRo"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -64,14 +66,19 @@
                         <viewLayoutGuide key="safeArea" id="8N0-1F-XTb"/>
                     </view>
                     <navigationItem key="navigationItem" id="zYF-in-DA3">
-                        <barButtonItem key="leftBarButtonItem" title="Delete" id="AAV-2g-zMY"/>
+                        <barButtonItem key="leftBarButtonItem" title="Delete" id="AAV-2g-zMY">
+                            <connections>
+                                <action selector="deleteMode:" destination="k7I-M0-Cvp" id="LSc-2R-zE6"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="vTp-YT-GTs">
                             <connections>
-                                <segue destination="7dC-da-eIF" kind="show" id="eDf-JV-8Be"/>
+                                <segue destination="7dC-da-eIF" kind="show" identifier="createSmartphoneSegue" id="eDf-JV-8Be"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="delete" destination="AAV-2g-zMY" id="p5m-x2-NFe"/>
                         <outlet property="tableView" destination="XEM-st-3FW" id="4r5-kG-7Hy"/>
                     </connections>
                 </viewController>
@@ -286,18 +293,20 @@
                                 <action selector="backToPreviousScreen:" destination="3IK-Wr-gNQ" id="gIk-8d-YeX"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="toa-mK-7Fc">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="toa-mK-7Fc">
                             <connections>
-                                <action selector="saveInformation:" destination="3IK-Wr-gNQ" id="UMv-xg-k1u"/>
+                                <action selector="saveNewOrEditedInformation:" destination="3IK-Wr-gNQ" id="sj3-T3-v78"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="back" destination="DiO-Ba-1Rf" id="yyk-vb-YxP"/>
                         <outlet property="save" destination="toa-mK-7Fc" id="sga-ek-yaX"/>
-                        <outlet property="smartphoneCost" destination="SXB-mB-RlS" id="Pcv-UJ-8sO"/>
+                        <outlet property="smartphoneCost" destination="0pe-sL-F48" id="SnM-eF-EPU"/>
                         <outlet property="smartphoneMPOfCamera" destination="dfQ-tb-oMR" id="b5a-cp-2Fh"/>
                         <outlet property="smartphoneName" destination="abb-IM-7NA" id="iJp-U4-OdJ"/>
                         <outlet property="smartphoneOperatingSystem" destination="hyE-Ku-ZCM" id="6Ob-Db-I1E"/>
+                        <outlet property="smartphoneScreenSize" destination="SXB-mB-RlS" id="tjd-nZ-LWX"/>
                         <outlet property="smartphoneVideoconference" destination="1eX-GL-OJv" id="9N0-y1-g5D"/>
                     </connections>
                 </tableViewController>
@@ -375,4 +384,7 @@
             <point key="canvasLocation" x="765.60000000000002" y="510.49475262368821"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Xpc-Nq-jRo"/>
+    </inferredMetricsTieBreakers>
 </document>
