@@ -16,6 +16,8 @@
 		F413510E21AD40D000F89B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F413510C21AD40D000F89B5F /* LaunchScreen.storyboard */; };
 		F45E280E21AE804500B25FAE /* SmartphonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E280D21AE804500B25FAE /* SmartphonesViewController.swift */; };
 		F45E281021AE85D400B25FAE /* SmartphonesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45E280F21AE85D400B25FAE /* SmartphonesTableViewCell.swift */; };
+		F499AAA021B7BAD9004E7698 /* OptimizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499AA9F21B7BAD9004E7698 /* OptimizationViewController.swift */; };
+		F499AAA321B7D367004E7698 /* TheBestChoiceOfSmartphoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F499AAA221B7D367004E7698 /* TheBestChoiceOfSmartphoneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F413510F21AD40D000F89B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F45E280D21AE804500B25FAE /* SmartphonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartphonesViewController.swift; sourceTree = "<group>"; };
 		F45E280F21AE85D400B25FAE /* SmartphonesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartphonesTableViewCell.swift; sourceTree = "<group>"; };
+		F499AA9F21B7BAD9004E7698 /* OptimizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizationViewController.swift; sourceTree = "<group>"; };
+		F499AAA221B7D367004E7698 /* TheBestChoiceOfSmartphoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBestChoiceOfSmartphoneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			children = (
 				F45E280821AE7F2D00B25FAE /* Smartphones Controllers */,
 				F401995B21B3E33600E14719 /* Creating and editing Smartphones Controllers */,
+				F499AA9E21B7BAB1004E7698 /* Optimization Controllers */,
+				F499AAA121B7D33A004E7698 /* The Best Choice Of Smartphone Controller */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -114,6 +120,22 @@
 				F45E280F21AE85D400B25FAE /* SmartphonesTableViewCell.swift */,
 			);
 			path = "Smartphones Controllers";
+			sourceTree = "<group>";
+		};
+		F499AA9E21B7BAB1004E7698 /* Optimization Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F499AA9F21B7BAD9004E7698 /* OptimizationViewController.swift */,
+			);
+			path = "Optimization Controllers";
+			sourceTree = "<group>";
+		};
+		F499AAA121B7D33A004E7698 /* The Best Choice Of Smartphone Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F499AAA221B7D367004E7698 /* TheBestChoiceOfSmartphoneViewController.swift */,
+			);
+			path = "The Best Choice Of Smartphone Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +215,8 @@
 				F413510921AD40CF00F89B5F /* What_SmartPhone_do_you_want_.xcdatamodeld in Sources */,
 				F413510121AD40CF00F89B5F /* AppDelegate.swift in Sources */,
 				F40DE64221B50A1C00020DD1 /* Smartphone Model.swift in Sources */,
+				F499AAA021B7BAD9004E7698 /* OptimizationViewController.swift in Sources */,
+				F499AAA321B7D367004E7698 /* TheBestChoiceOfSmartphoneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
