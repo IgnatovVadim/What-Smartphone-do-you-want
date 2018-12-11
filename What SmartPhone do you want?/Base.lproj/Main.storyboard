@@ -138,7 +138,7 @@
                                                     <rect key="frame" x="2" y="2" width="371" height="44.5"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                                     <connections>
                                                         <action selector="textInTextFieldChanged:" destination="3IK-Wr-gNQ" eventType="editingDidEnd" id="K3q-Dd-7tT"/>
                                                     </connections>
@@ -168,7 +168,7 @@
                                                     <rect key="frame" x="2" y="2" width="371" height="44.5"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                                     <connections>
                                                         <action selector="textInTextFieldChanged:" destination="3IK-Wr-gNQ" eventType="editingDidEnd" id="upc-MO-agT"/>
                                                     </connections>
@@ -226,7 +226,7 @@
                                                     <rect key="frame" x="2" y="2" width="371" height="44.5"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                                     <connections>
                                                         <action selector="textInTextFieldChanged:" destination="3IK-Wr-gNQ" eventType="editingDidEnd" id="lof-Tf-a6N"/>
                                                     </connections>
@@ -314,6 +314,132 @@
             </objects>
             <point key="canvasLocation" x="2919" y="510"/>
         </scene>
+        <!--Smartphone-->
+        <scene sceneID="Av6-X9-TLH">
+            <objects>
+                <viewController id="efu-XS-uuv" customClass="TheBestChoiceViewController" customModule="What_SmartPhone_do_you_want_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5x5-OD-17T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Of phone:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVK-eS-gCE">
+                                <rect key="frame" x="16" y="87" width="343" height="24.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Ohf-L3-QNx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HzW-S1-ndy">
+                                <rect key="frame" x="16" y="129" width="343" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="pcX-WU-dzy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ScreenSize:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjT-NG-sLh">
+                                <rect key="frame" x="16" y="169" width="343" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Fl8-WU-1TP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operating System: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJf-aL-TkM">
+                                <rect key="frame" x="16" y="209" width="343" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Wwz-lO-oiE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbJ-Oz-cwm">
+                                <rect key="frame" x="16" y="249" width="343" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="AeJ-GO-cuw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Videoconference: " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bml-Ls-RYO">
+                                <rect key="frame" x="16" y="289" width="343" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="JBx-P9-jLF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt; Previous phone (Swipe right)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axO-3C-RZS">
+                                <rect key="frame" x="0.0" y="530" width="236" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="B8h-4S-KSj"/>
+                                    <constraint firstAttribute="width" constant="236" id="Qhg-9o-fZM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Swipe left) Next phone &gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gec-7E-wFS">
+                                <rect key="frame" x="179" y="501" width="196" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="mTf-3f-x4A"/>
+                                    <constraint firstAttribute="height" constant="21" id="pwE-VN-8AA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jVK-eS-gCE" firstAttribute="top" secondItem="XX8-O4-SiM" secondAttribute="top" constant="23" id="6ts-7S-w7y"/>
+                            <constraint firstItem="jVK-eS-gCE" firstAttribute="centerX" secondItem="5x5-OD-17T" secondAttribute="centerX" id="G4j-vr-ZuN"/>
+                            <constraint firstItem="axO-3C-RZS" firstAttribute="leading" secondItem="XX8-O4-SiM" secondAttribute="leading" id="GRB-ee-VmS"/>
+                            <constraint firstItem="axO-3C-RZS" firstAttribute="top" secondItem="gec-7E-wFS" secondAttribute="bottom" constant="8" id="PZL-eE-x5F"/>
+                            <constraint firstItem="IJf-aL-TkM" firstAttribute="centerX" secondItem="5x5-OD-17T" secondAttribute="centerX" id="QXA-UW-tVp"/>
+                            <constraint firstItem="HzW-S1-ndy" firstAttribute="top" secondItem="jVK-eS-gCE" secondAttribute="bottom" constant="17.5" id="Tmm-Tm-iM8"/>
+                            <constraint firstItem="cjT-NG-sLh" firstAttribute="top" secondItem="HzW-S1-ndy" secondAttribute="bottom" constant="17.5" id="Vll-Rj-bZH"/>
+                            <constraint firstItem="cjT-NG-sLh" firstAttribute="centerX" secondItem="5x5-OD-17T" secondAttribute="centerX" id="Wjo-cY-LDR"/>
+                            <constraint firstItem="XX8-O4-SiM" firstAttribute="bottom" secondItem="axO-3C-RZS" secondAttribute="bottom" constant="116" id="a1s-2m-BF3"/>
+                            <constraint firstItem="gec-7E-wFS" firstAttribute="trailing" secondItem="XX8-O4-SiM" secondAttribute="trailing" id="gdb-c8-Eqr"/>
+                            <constraint firstItem="MbJ-Oz-cwm" firstAttribute="top" secondItem="IJf-aL-TkM" secondAttribute="bottom" constant="17.5" id="lfG-q4-Obb"/>
+                            <constraint firstItem="MbJ-Oz-cwm" firstAttribute="centerX" secondItem="5x5-OD-17T" secondAttribute="centerX" id="oHP-oK-Oo8"/>
+                            <constraint firstItem="Bml-Ls-RYO" firstAttribute="centerX" secondItem="5x5-OD-17T" secondAttribute="centerX" id="oo6-7q-3Rv"/>
+                            <constraint firstItem="HzW-S1-ndy" firstAttribute="centerX" secondItem="5x5-OD-17T" secondAttribute="centerX" id="uuj-rZ-6fj"/>
+                            <constraint firstItem="Bml-Ls-RYO" firstAttribute="top" secondItem="MbJ-Oz-cwm" secondAttribute="bottom" constant="17.5" id="vST-QI-z8b"/>
+                            <constraint firstItem="IJf-aL-TkM" firstAttribute="top" secondItem="cjT-NG-sLh" secondAttribute="bottom" constant="17.5" id="yCi-RU-uEn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XX8-O4-SiM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Smartphone" id="eRn-ar-v3f">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="7rp-q7-0Iw">
+                            <connections>
+                                <action selector="backToPreviousScreen:" destination="efu-XS-uuv" id="kAn-bM-u8P"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="costOfSmartphone" destination="HzW-S1-ndy" id="u2K-MG-n55"/>
+                        <outlet property="mpOfCameraOfSmartphone" destination="MbJ-Oz-cwm" id="ni3-PK-YIe"/>
+                        <outlet property="nameOfSmartphone" destination="jVK-eS-gCE" id="Dsc-tB-dXj"/>
+                        <outlet property="nextPhone" destination="gec-7E-wFS" id="qGv-8k-AzX"/>
+                        <outlet property="operatingSystemOfSmartphone" destination="IJf-aL-TkM" id="qKi-Gh-Rx0"/>
+                        <outlet property="previousPhone" destination="axO-3C-RZS" id="xlR-x6-CuG"/>
+                        <outlet property="screenSizeOfSmartphone" destination="cjT-NG-sLh" id="ru4-6b-xRo"/>
+                        <outlet property="videoconferenceOfSmarphone" destination="Bml-Ls-RYO" id="n42-tg-tSU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0K0-Qz-FMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2213.5999999999999" y="-152.47376311844079"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="mDw-Zy-cj6">
             <objects>
@@ -330,7 +456,7 @@
             </objects>
             <point key="canvasLocation" x="2214" y="510"/>
         </scene>
-        <!--Optimization View Controller-->
+        <!--Single-Critical Optimization-->
         <scene sceneID="FI8-ro-Alf">
             <objects>
                 <viewController id="5gm-cx-fYZ" customClass="OptimizationViewController" customModule="What_SmartPhone_do_you_want_" customModuleProvider="target" sceneMemberID="viewController">
@@ -338,83 +464,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Single-Critical Optimization with Cost" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ne-AW-Lcv">
-                                <rect key="frame" x="32" y="50" width="311" height="22.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Single-Critical Optimization with Cost" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ne-AW-Lcv">
+                                <rect key="frame" x="24.5" y="50" width="326.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Enter Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aVf-9X-5qv">
+                                <rect key="frame" x="16" y="137.5" width="343" height="27"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Amount of Money that You Have" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSz-c9-sLn">
+                                <rect key="frame" x="30" y="105" width="315" height="22.5"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CH0-Be-py4">
-                                <rect key="frame" x="27.5" y="80" width="320" height="61"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="rA3-Gr-4aG"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="dataSource" destination="5gm-cx-fYZ" id="tzR-hA-WS6"/>
-                                    <outlet property="delegate" destination="5gm-cx-fYZ" id="2Re-vh-hFf"/>
-                                </connections>
-                            </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ur-9k-q3B">
-                                <rect key="frame" x="79" y="149" width="217" height="49"/>
+                                <rect key="frame" x="47.5" y="180.5" width="280" height="37"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="217" id="db0-ma-TQw"/>
-                                    <constraint firstAttribute="height" constant="49" id="zQ7-6C-GaM"/>
+                                    <constraint firstAttribute="width" constant="280" id="nXd-Rc-PbF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="22"/>
-                                <state key="normal" title="Single-Critical Search">
+                                <state key="normal" title="Single-Critical Optimization">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="singleCriticalSearch:" destination="5gm-cx-fYZ" eventType="touchUpInside" id="fpH-MY-SHR"/>
                                     <action selector="touchDownTheButtonOfSingleCriticalOptimization:" destination="5gm-cx-fYZ" eventType="touchDown" id="h2B-v8-WUO"/>
-                                    <segue destination="c17-E7-feY" kind="show" identifier="singleCriticalOptimizationSegue" id="uyg-JS-6eu"/>
+                                    <segue destination="vd7-Ki-oZ5" kind="show" identifier="theBestChoiceOfSingleOptimization" id="8Nu-qZ-rrt"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="1Ur-9k-q3B" firstAttribute="top" secondItem="CH0-Be-py4" secondAttribute="bottom" constant="8" id="8PL-MK-WfL"/>
-                            <constraint firstItem="1Ur-9k-q3B" firstAttribute="centerX" secondItem="fUl-jx-gvd" secondAttribute="centerX" id="F9p-Ev-J6d"/>
-                            <constraint firstItem="5Ne-AW-Lcv" firstAttribute="centerX" secondItem="fUl-jx-gvd" secondAttribute="centerX" id="VRA-q5-TrO"/>
-                            <constraint firstItem="5Ne-AW-Lcv" firstAttribute="top" secondItem="T8W-OG-7bw" secondAttribute="top" constant="30" id="m1R-zN-O60"/>
-                            <constraint firstItem="CH0-Be-py4" firstAttribute="top" secondItem="5Ne-AW-Lcv" secondAttribute="bottom" constant="7.5" id="mqN-MP-DC8"/>
-                            <constraint firstItem="CH0-Be-py4" firstAttribute="centerX" secondItem="fUl-jx-gvd" secondAttribute="centerX" id="oAE-7a-Cp5"/>
+                            <constraint firstItem="T8W-OG-7bw" firstAttribute="trailing" secondItem="5Ne-AW-Lcv" secondAttribute="trailing" constant="24" id="27i-fI-Vky"/>
+                            <constraint firstItem="5Ne-AW-Lcv" firstAttribute="leading" secondItem="T8W-OG-7bw" secondAttribute="leading" constant="24.5" id="Bp6-aR-3CW"/>
+                            <constraint firstItem="T8W-OG-7bw" firstAttribute="trailing" secondItem="PSz-c9-sLn" secondAttribute="trailing" constant="30" id="Cyx-Re-sZm"/>
+                            <constraint firstItem="1Ur-9k-q3B" firstAttribute="top" secondItem="aVf-9X-5qv" secondAttribute="bottom" constant="16" id="UKc-dE-W7i"/>
+                            <constraint firstItem="PSz-c9-sLn" firstAttribute="leading" secondItem="T8W-OG-7bw" secondAttribute="leading" constant="30" id="VMG-U5-RKi"/>
+                            <constraint firstItem="5Ne-AW-Lcv" firstAttribute="top" secondItem="T8W-OG-7bw" secondAttribute="top" constant="30" id="aMi-kT-8Mb"/>
+                            <constraint firstItem="PSz-c9-sLn" firstAttribute="top" secondItem="5Ne-AW-Lcv" secondAttribute="bottom" constant="31.5" id="mMh-QV-vrs"/>
+                            <constraint firstItem="1Ur-9k-q3B" firstAttribute="centerX" secondItem="fUl-jx-gvd" secondAttribute="centerX" id="qVV-8V-ncZ"/>
+                            <constraint firstItem="T8W-OG-7bw" firstAttribute="trailing" secondItem="aVf-9X-5qv" secondAttribute="trailing" constant="16" id="s0D-Tc-E6j"/>
+                            <constraint firstItem="aVf-9X-5qv" firstAttribute="leading" secondItem="T8W-OG-7bw" secondAttribute="leading" constant="16" id="seK-Kh-dje"/>
+                            <constraint firstItem="aVf-9X-5qv" firstAttribute="top" secondItem="PSz-c9-sLn" secondAttribute="bottom" constant="10" id="zCe-bp-5Xi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="T8W-OG-7bw"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="J1U-xZ-pMr"/>
+                    <tabBarItem key="tabBarItem" title="Single-Critical Optimization" id="J1U-xZ-pMr"/>
                     <connections>
-                        <outlet property="parametersNamesForSingleCriticalOptimization" destination="CH0-Be-py4" id="A0v-41-rUL"/>
+                        <outlet property="amountOfMoneyThatHasPerson" destination="aVf-9X-5qv" id="oXc-8L-boa"/>
                         <outlet property="searchForSingleCriticalOptimization" destination="1Ur-9k-q3B" id="3kA-mb-iI2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dBN-6C-7HQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="765.60000000000002" y="-152.47376311844079"/>
-        </scene>
-        <!--The Best Choice Of Smartphone View Controller-->
-        <scene sceneID="CjX-sg-9gI">
-            <objects>
-                <viewController id="NVO-tE-wcp" customClass="TheBestChoiceOfSmartphoneViewController" customModule="What_SmartPhone_do_you_want_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WZS-5l-m4L">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="C74-ZE-2DP"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="zCc-A2-bE8">
-                        <barButtonItem key="leftBarButtonItem" title="Back" id="6o3-nl-hvh">
-                            <connections>
-                                <action selector="backToPreviousScreen:" destination="NVO-tE-wcp" id="q8r-ym-EUc"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kDh-x3-R2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2214" y="-151"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="n4N-tE-szQ">
@@ -454,20 +564,20 @@
             <point key="canvasLocation" x="765.60000000000002" y="510.49475262368821"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="j3m-fK-XuZ">
+        <scene sceneID="UEa-qp-1Bo">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c17-E7-feY" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vd7-Ki-oZ5" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EgP-5U-ggq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mKi-uU-Npw">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="NVO-tE-wcp" kind="relationship" relationship="rootViewController" id="bnf-FB-JnU"/>
+                        <segue destination="efu-XS-uuv" kind="relationship" relationship="rootViewController" id="GoQ-WP-9bR"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oTo-dO-1no" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ao8-gZ-cBO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1489" y="-152"/>
         </scene>

@@ -63,7 +63,7 @@ class SmartphonesViewController: UIViewController, UITableViewDelegate, UITableV
     
     func fetchData()
     {
-        smartphones = Smartphone.fetchData()
+        smartphones = Smartphone.fetchData().sorted(by: {$0.cost < $1.cost})
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

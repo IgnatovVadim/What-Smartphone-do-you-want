@@ -73,6 +73,15 @@ class CreateOrEditSmartphoneTableViewController: UITableViewController, UIPicker
         }
     }
     
+    func textFieldDidEndEditing(_ textField: UITextField)
+    {
+        let text = textField.text!
+        if (text.contains(","))
+        {
+            textField.text! = text.replacingOccurrences(of: ",", with: ".", options: .regularExpression, range: nil)
+        }
+    }
+    
     @IBAction func saveNewOrEditedInformation(_ sender: UIBarButtonItem) {
         let selectedOperatingSystem = smartphoneOperatingSystem.selectedRow(inComponent: 0)
         if (smartphone == nil)
@@ -108,6 +117,9 @@ class CreateOrEditSmartphoneTableViewController: UITableViewController, UIPicker
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView(frame: CGRect.zero)
+        smartphoneCost.delegate = self
+        smartphoneScreenSize.delegate = self
+        smartphoneMPOfCamera.delegate = self
         smartphoneVideoconference.isOn = false
         if (smartphone != nil)
         {
